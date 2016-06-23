@@ -1,0 +1,110 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+    margin:0px;
+    padding:0px;
+}
+
+#home {
+    position: relative;
+    height: 700px;
+    background-color: #CCDCDC;
+}
+
+.buttons {
+    position: absolute;
+    right: -2px;
+    top: 5px;
+    margin-top: 183px;
+}
+
+.button1, .button2, .button3, .button4 {
+    background-color: #F8EA6A;
+    border: none;
+    padding: 40px 22px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    display: inline-block;
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-weight: 200;
+}
+
+
+.button2 {
+    padding: 40px 26px;
+    margin-top: 0px;
+    background-color: #EF7D52;
+    color: #FFF;
+}
+
+.button3 {
+    padding: 37px 17px;
+    margin-top: 0px;
+    background-color: #DE315F;
+    color: #FFF;
+}
+
+.button4 {
+    padding: 37px 14px;
+    margin-top: 0px;
+    background-color: #288DCA;
+    color: #FFF;
+}
+
+#image1 {
+    height: 106px;
+    width: 110px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+}
+
+#image2 {
+    height: 297px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 19px;
+}
+
+#image3 {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image4 {
+    float: right;
+    height: 112px;
+    width: 115px;
+    clear: both;
+    padding-right: 310px;
+    margin-top: -175px;
+}
+
+#image5 {
+    height: 100px;
+    width: 265px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
